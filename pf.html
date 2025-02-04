@@ -1,0 +1,155 @@
+Persze, itt egy alap HTML kód egy parfümös oldalhoz, amely tartalmazza az oldal struktúráját, néhány parfüm terméket, navigációt, és stílusokat. Ez egy egyszerű, reszponzív oldal, amit testre szabhatsz a saját igényeid szerint.
+
+```html
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parfümös Weboldal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ff6f61;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .product-card {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .product-card p {
+            color: #666;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Üdvözlünk a Parfümös Weboldalon!</h1>
+        <p>Fedezd fel a legjobb illatokat és vásárolj online!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Kezdőlap</a>
+        <a href="#products">Parfümök</a>
+        <a href="#about">Rólunk</a>
+        <a href="#contact">Kapcsolat</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <div class="container">
+            <h2>Fedezd fel a legjobb parfümöket!</h2>
+            <p>Kiváló minőségű parfümök széles választékával várunk. Válassz női, férfi vagy unisex illataink közül.</p>
+        </div>
+    </section>
+
+    <!-- Product Catalog -->
+    <section id="products">
+        <div class="container">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRYzWJMFGyt8yA3y1LEqAard6V9NgV9lrsBViX1j5LItbXP3N9CdHmVR9R6iPTg58JZvairhxKF1-nNLc-7RZsFx7yZuU3RSluNVq1HJYa8JlYrBkblHf6ZwA" alt="Parfüm 1">
+                <h3>Női Parfüm 1</h3>
+                <p>Friss és virágos illat</p>
+                <p><strong>Ár: 15.000 Ft</strong></p>
+                <button>Vásárlás</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x250" alt="Parfüm 2">
+                <h3>Férfi Parfüm 1</h3>
+                <p>Fás és fűszeres illat</p>
+                <p><strong>Ár: 18.000 Ft</strong></p>
+                <button>Vásárlás</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x250" alt="Parfüm 3">
+                <h3>Unisex Parfüm 1</h3>
+                <p>Friss citrusos illat</p>
+                <p><strong>Ár: 12.000 Ft</strong></p>
+                <button>Vásárlás</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Rólunk</h2>
+            <p>A Parfümös Weboldal célja, hogy a legjobb minőségű parfümöket biztosítsa vásárlóinak. Akár egy új illatot keresel, akár ajándéknak szánod, nálunk mindent megtalálsz!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kapcsolat</h2>
+            <p>Ha kérdésed van, vedd fel velünk a kapcsolatot!</p>
+            <p><strong>E-mail:</strong> info@parfumosweboldal.com</p>
+            <p><strong>Telefon:</strong> +36 1 234 5678</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Parfümös Weboldal. Minden jog fenntartva.</p>
+    </footer>
+
+</body>
+</html>
+```
+
+
